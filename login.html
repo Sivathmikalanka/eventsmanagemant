@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Management System</title>
+  </head>
+  <body>
+    <h1>Event Management System</h1>
+
+   
+    <ul>
+     
+
+    <h2>Event Creation/Registration Form</h2>
+    <form>
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" name="event-name" required>
+    <br><br>
+      <label for="event-date">Event Date:</label>
+      <input type="date" id="event-date" name="event-date" required>
+    <br><br>
+      <label for="event-location">Event Location:</label>
+      <input type="text" id="event-location" name="event-location" required>
+    <br><br>
+      <button type="submit">Create/Register Event</button>
+    </form>
+
+    <h2>Participant Booking and Registration Form</h2>
+    <form>
+      <label for="participant-name">Participant Name:</label>
+      <input type="text" id="participant-name" name="participant-name" required>
+    <br><br>
+      <label for="participant-email">Participant Email:</label>
+      <input type="email" id="participant-email" name="participant-email" required>
+    <br><br>
+      <label for="participant-phone">Participant Phone:</label>
+      <input type="tel" id="participant-phone" name="participant-phone" required>
+    <br><br>
+      <label for="event-list">Event List:</label>
+      <select id="event-list" name="event-list" required>
+        <option value="">Select Event</option>
+        <option value="event1">Event 1</option>
+        <option value="event2">Event 2</option>
+        <option value="event3">Event 3</option>
+      </select>
+
+      <button type="submit">Book/Register for Event</button>
+    </form>
+
+    <h2>Registered Participants for Event</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Participant Name</th>
+          <th>Participant Email</th>
+          <th>Participant Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>johndoe@gmail.com</td>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>janesmith@yahoo.com</td>
+          <td>555-5678</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
